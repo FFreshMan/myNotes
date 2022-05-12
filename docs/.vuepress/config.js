@@ -1,4 +1,5 @@
 module.exports = {
+  base:"/dist/",
   title: 'ffreshman 的笔记',
   description: '一个简约实用的UI框架',
   themeConfig: {
@@ -18,3 +19,4 @@ module.exports = {
     ]
   }
 }
+//注意这里的dist路径，不然gitpages不能获取到css的路径，打包后html文件中的css路径
